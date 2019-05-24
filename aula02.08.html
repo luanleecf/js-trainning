@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <title>Lógica de Programação JS</title>
+<head>
+</head>
+<body>
+    <h1>Lógica de programação JS</h1>
+
+    <script>
+        var nome = prompt("Digite seu primeiro nome: ");
+        nome = parseInt(nome)
+
+        var comprimento = nome.length
+        
+        switch(comprimento){
+            case (comprimento < 5):
+                alert("Normal");
+                break;
+            case (comprimento >= 5):
+                alert("Grande");
+                break;
+            case 3:
+                alert("Excelente escolha");
+                break;
+            default:
+                alert("ERROR 404: Escolha de 1 a 3");
+        }
+    </script>
+
+</body>
+</html>
